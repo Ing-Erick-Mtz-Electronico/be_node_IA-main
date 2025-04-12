@@ -8,7 +8,7 @@ class ControladorParamsIA {
   public static obtenerParamsIA(req: Request): ChatCompletionMessageParam[] {
     const { codUsuarioPeticion, idiomaPeticion, textoPeticion } = req.body as Peticion;
 
-    const peticionUSuario = String(process.env.USER_REQUEST) + idiomaPeticion + ": " + textoPeticion;
+    const peticionUSuario = String(process.env.USER_REQUEST).replace("{IDIOMA}", idiomaPeticion).replace("{TEXTO}", textoPeticion);
 
     if (!arregloIA[codUsuarioPeticion]) {
       arregloIA[codUsuarioPeticion] = [

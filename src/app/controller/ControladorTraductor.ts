@@ -10,7 +10,7 @@ dotenv.config({
 
 class ControladorTraductor extends ServicioTraductor {
   public llamarTraducirTexto(req: Request, res: Response): void {
-    const modeloIA = String(process.env.MODEL);
+    const modeloIA = String(process.env.MODEL_MAKETA);
     const keyOpenAI = String(process.env.API_KEY_OPENAI);
 
     const objOpenAI = new OpenAI({
