@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import morgan from "morgan";
-import rutaApiTraductor from "../../app/route/RutaTraductor";
+import rutaApiImagen from "../../app/route/RutaImagen";
 import chalk from "chalk";
 
 
@@ -12,7 +12,7 @@ class Servidor {
     this.app = express();
     this.configuracion();
 
-    this.app.use("/api/v1", rutaApiTraductor);
+    this.app.use("/api/imagen/v1", rutaApiImagen);
   }
 
   public configuracion(): void {

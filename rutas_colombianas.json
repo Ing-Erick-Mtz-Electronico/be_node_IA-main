@@ -1,0 +1,802 @@
+[
+    {
+        "id": 1,
+        "ruta": {
+            "origen": "Pasto",
+            "destino": "Villavicencio"
+        },
+        "precio": 449798
+    },
+    {
+        "id": 2,
+        "ruta": {
+            "origen": "Manizales",
+            "destino": "Bucaramanga"
+        },
+        "precio": 402279
+    },
+    {
+        "id": 3,
+        "ruta": {
+            "origen": "Pasto",
+            "destino": "Barranquilla"
+        },
+        "precio": 379615
+    },
+    {
+        "id": 4,
+        "ruta": {
+            "origen": "Neiva",
+            "destino": "Riohacha"
+        },
+        "precio": 151919
+    },
+    {
+        "id": 5,
+        "ruta": {
+            "origen": "Barranquilla",
+            "destino": "Cartagena"
+        },
+        "precio": 430036
+    },
+    {
+        "id": 6,
+        "ruta": {
+            "origen": "Quibd\u00f3",
+            "destino": "Riohacha"
+        },
+        "precio": 301236
+    },
+    {
+        "id": 7,
+        "ruta": {
+            "origen": "Bucaramanga",
+            "destino": "Cartagena"
+        },
+        "precio": 440876
+    },
+    {
+        "id": 8,
+        "ruta": {
+            "origen": "Valledupar",
+            "destino": "Tunja"
+        },
+        "precio": 383264
+    },
+    {
+        "id": 9,
+        "ruta": {
+            "origen": "Florencia",
+            "destino": "San Andr\u00e9s"
+        },
+        "precio": 256179
+    },
+    {
+        "id": 10,
+        "ruta": {
+            "origen": "Quibd\u00f3",
+            "destino": "Florencia"
+        },
+        "precio": 433272
+    },
+    {
+        "id": 11,
+        "ruta": {
+            "origen": "Manizales",
+            "destino": "Barranquilla"
+        },
+        "precio": 129990
+    },
+    {
+        "id": 12,
+        "ruta": {
+            "origen": "Pereira",
+            "destino": "Florencia"
+        },
+        "precio": 296285
+    },
+    {
+        "id": 13,
+        "ruta": {
+            "origen": "San Andr\u00e9s",
+            "destino": "Valledupar"
+        },
+        "precio": 223804
+    },
+    {
+        "id": 14,
+        "ruta": {
+            "origen": "Riohacha",
+            "destino": "Manizales"
+        },
+        "precio": 101651
+    },
+    {
+        "id": 15,
+        "ruta": {
+            "origen": "Medell\u00edn",
+            "destino": "San Andr\u00e9s"
+        },
+        "precio": 258211
+    },
+    {
+        "id": 16,
+        "ruta": {
+            "origen": "Pasto",
+            "destino": "Villavicencio"
+        },
+        "precio": 107636
+    },
+    {
+        "id": 17,
+        "ruta": {
+            "origen": "Monter\u00eda",
+            "destino": "Neiva"
+        },
+        "precio": 164345
+    },
+    {
+        "id": 18,
+        "ruta": {
+            "origen": "Pasto",
+            "destino": "San Andr\u00e9s"
+        },
+        "precio": 107722
+    },
+    {
+        "id": 19,
+        "ruta": {
+            "origen": "Tunja",
+            "destino": "Medell\u00edn"
+        },
+        "precio": 436138
+    },
+    {
+        "id": 20,
+        "ruta": {
+            "origen": "Cartagena",
+            "destino": "San Andr\u00e9s"
+        },
+        "precio": 298620
+    },
+    {
+        "id": 21,
+        "ruta": {
+            "origen": "Ibagu\u00e9",
+            "destino": "Monter\u00eda"
+        },
+        "precio": 254487
+    },
+    {
+        "id": 22,
+        "ruta": {
+            "origen": "Cali",
+            "destino": "Ibagu\u00e9"
+        },
+        "precio": 366628
+    },
+    {
+        "id": 23,
+        "ruta": {
+            "origen": "Tunja",
+            "destino": "Barranquilla"
+        },
+        "precio": 351083
+    },
+    {
+        "id": 24,
+        "ruta": {
+            "origen": "Cali",
+            "destino": "Barranquilla"
+        },
+        "precio": 402928
+    },
+    {
+        "id": 25,
+        "ruta": {
+            "origen": "Neiva",
+            "destino": "Barranquilla"
+        },
+        "precio": 444256
+    },
+    {
+        "id": 26,
+        "ruta": {
+            "origen": "Monter\u00eda",
+            "destino": "Villavicencio"
+        },
+        "precio": 138073
+    },
+    {
+        "id": 27,
+        "ruta": {
+            "origen": "Bucaramanga",
+            "destino": "Quibd\u00f3"
+        },
+        "precio": 200637
+    },
+    {
+        "id": 28,
+        "ruta": {
+            "origen": "Cartagena",
+            "destino": "Medell\u00edn"
+        },
+        "precio": 212326
+    },
+    {
+        "id": 29,
+        "ruta": {
+            "origen": "Bogot\u00e1",
+            "destino": "Monter\u00eda"
+        },
+        "precio": 436204
+    },
+    {
+        "id": 30,
+        "ruta": {
+            "origen": "Barranquilla",
+            "destino": "Monter\u00eda"
+        },
+        "precio": 236458
+    },
+    {
+        "id": 31,
+        "ruta": {
+            "origen": "Medell\u00edn",
+            "destino": "Riohacha"
+        },
+        "precio": 394122
+    },
+    {
+        "id": 32,
+        "ruta": {
+            "origen": "Ibagu\u00e9",
+            "destino": "Barranquilla"
+        },
+        "precio": 138160
+    },
+    {
+        "id": 33,
+        "ruta": {
+            "origen": "Barranquilla",
+            "destino": "San Andr\u00e9s"
+        },
+        "precio": 128216
+    },
+    {
+        "id": 34,
+        "ruta": {
+            "origen": "Tunja",
+            "destino": "Sincelejo"
+        },
+        "precio": 172888
+    },
+    {
+        "id": 35,
+        "ruta": {
+            "origen": "Santa Marta",
+            "destino": "Ibagu\u00e9"
+        },
+        "precio": 213456
+    },
+    {
+        "id": 36,
+        "ruta": {
+            "origen": "Sincelejo",
+            "destino": "Quibd\u00f3"
+        },
+        "precio": 347911
+    },
+    {
+        "id": 37,
+        "ruta": {
+            "origen": "Medell\u00edn",
+            "destino": "Neiva"
+        },
+        "precio": 107291
+    },
+    {
+        "id": 38,
+        "ruta": {
+            "origen": "Valledupar",
+            "destino": "Bogot\u00e1"
+        },
+        "precio": 348981
+    },
+    {
+        "id": 39,
+        "ruta": {
+            "origen": "San Andr\u00e9s",
+            "destino": "Pereira"
+        },
+        "precio": 131839
+    },
+    {
+        "id": 40,
+        "ruta": {
+            "origen": "Florencia",
+            "destino": "Sincelejo"
+        },
+        "precio": 118776
+    },
+    {
+        "id": 41,
+        "ruta": {
+            "origen": "Monter\u00eda",
+            "destino": "San Andr\u00e9s"
+        },
+        "precio": 249905
+    },
+    {
+        "id": 42,
+        "ruta": {
+            "origen": "Neiva",
+            "destino": "Villavicencio"
+        },
+        "precio": 246026
+    },
+    {
+        "id": 43,
+        "ruta": {
+            "origen": "Neiva",
+            "destino": "Santa Marta"
+        },
+        "precio": 398090
+    },
+    {
+        "id": 44,
+        "ruta": {
+            "origen": "Pereira",
+            "destino": "Pasto"
+        },
+        "precio": 292852
+    },
+    {
+        "id": 45,
+        "ruta": {
+            "origen": "C\u00facuta",
+            "destino": "Sincelejo"
+        },
+        "precio": 101955
+    },
+    {
+        "id": 46,
+        "ruta": {
+            "origen": "Florencia",
+            "destino": "Bucaramanga"
+        },
+        "precio": 357959
+    },
+    {
+        "id": 47,
+        "ruta": {
+            "origen": "Cartagena",
+            "destino": "Bogot\u00e1"
+        },
+        "precio": 247253
+    },
+    {
+        "id": 48,
+        "ruta": {
+            "origen": "Barranquilla",
+            "destino": "Cali"
+        },
+        "precio": 282790
+    },
+    {
+        "id": 49,
+        "ruta": {
+            "origen": "Bucaramanga",
+            "destino": "Neiva"
+        },
+        "precio": 315400
+    },
+    {
+        "id": 50,
+        "ruta": {
+            "origen": "Quibd\u00f3",
+            "destino": "Medell\u00edn"
+        },
+        "precio": 130741
+    },
+    {
+        "id": 51,
+        "ruta": {
+            "origen": "Monter\u00eda",
+            "destino": "Tunja"
+        },
+        "precio": 217576
+    },
+    {
+        "id": 52,
+        "ruta": {
+            "origen": "Cali",
+            "destino": "Pereira"
+        },
+        "precio": 441189
+    },
+    {
+        "id": 53,
+        "ruta": {
+            "origen": "Pereira",
+            "destino": "Ibagu\u00e9"
+        },
+        "precio": 295850
+    },
+    {
+        "id": 54,
+        "ruta": {
+            "origen": "Cali",
+            "destino": "Monter\u00eda"
+        },
+        "precio": 159141
+    },
+    {
+        "id": 55,
+        "ruta": {
+            "origen": "Villavicencio",
+            "destino": "Bogot\u00e1"
+        },
+        "precio": 125925
+    },
+    {
+        "id": 56,
+        "ruta": {
+            "origen": "Villavicencio",
+            "destino": "Barranquilla"
+        },
+        "precio": 419766
+    },
+    {
+        "id": 57,
+        "ruta": {
+            "origen": "Barranquilla",
+            "destino": "Cartagena"
+        },
+        "precio": 124291
+    },
+    {
+        "id": 58,
+        "ruta": {
+            "origen": "Cartagena",
+            "destino": "Cali"
+        },
+        "precio": 396814
+    },
+    {
+        "id": 59,
+        "ruta": {
+            "origen": "Riohacha",
+            "destino": "Monter\u00eda"
+        },
+        "precio": 263001
+    },
+    {
+        "id": 60,
+        "ruta": {
+            "origen": "Bucaramanga",
+            "destino": "Barranquilla"
+        },
+        "precio": 410318
+    },
+    {
+        "id": 61,
+        "ruta": {
+            "origen": "Armenia",
+            "destino": "Santa Marta"
+        },
+        "precio": 211203
+    },
+    {
+        "id": 62,
+        "ruta": {
+            "origen": "Cartagena",
+            "destino": "Medell\u00edn"
+        },
+        "precio": 222319
+    },
+    {
+        "id": 63,
+        "ruta": {
+            "origen": "Barranquilla",
+            "destino": "Cali"
+        },
+        "precio": 275946
+    },
+    {
+        "id": 64,
+        "ruta": {
+            "origen": "Sincelejo",
+            "destino": "Medell\u00edn"
+        },
+        "precio": 322518
+    },
+    {
+        "id": 65,
+        "ruta": {
+            "origen": "Pasto",
+            "destino": "Armenia"
+        },
+        "precio": 276540
+    },
+    {
+        "id": 66,
+        "ruta": {
+            "origen": "Valledupar",
+            "destino": "Santa Marta"
+        },
+        "precio": 277262
+    },
+    {
+        "id": 67,
+        "ruta": {
+            "origen": "Barranquilla",
+            "destino": "Neiva"
+        },
+        "precio": 130024
+    },
+    {
+        "id": 68,
+        "ruta": {
+            "origen": "Pasto",
+            "destino": "Bucaramanga"
+        },
+        "precio": 277439
+    },
+    {
+        "id": 69,
+        "ruta": {
+            "origen": "Barranquilla",
+            "destino": "Monter\u00eda"
+        },
+        "precio": 361630
+    },
+    {
+        "id": 70,
+        "ruta": {
+            "origen": "Riohacha",
+            "destino": "San Andr\u00e9s"
+        },
+        "precio": 170604
+    },
+    {
+        "id": 71,
+        "ruta": {
+            "origen": "Villavicencio",
+            "destino": "Riohacha"
+        },
+        "precio": 277203
+    },
+    {
+        "id": 72,
+        "ruta": {
+            "origen": "Ibagu\u00e9",
+            "destino": "Florencia"
+        },
+        "precio": 350166
+    },
+    {
+        "id": 73,
+        "ruta": {
+            "origen": "Tunja",
+            "destino": "Villavicencio"
+        },
+        "precio": 439438
+    },
+    {
+        "id": 74,
+        "ruta": {
+            "origen": "Monter\u00eda",
+            "destino": "C\u00facuta"
+        },
+        "precio": 182573
+    },
+    {
+        "id": 75,
+        "ruta": {
+            "origen": "Neiva",
+            "destino": "Manizales"
+        },
+        "precio": 214830
+    },
+    {
+        "id": 76,
+        "ruta": {
+            "origen": "Ibagu\u00e9",
+            "destino": "Medell\u00edn"
+        },
+        "precio": 118752
+    },
+    {
+        "id": 77,
+        "ruta": {
+            "origen": "Pasto",
+            "destino": "Barranquilla"
+        },
+        "precio": 228165
+    },
+    {
+        "id": 78,
+        "ruta": {
+            "origen": "Neiva",
+            "destino": "Monter\u00eda"
+        },
+        "precio": 134208
+    },
+    {
+        "id": 79,
+        "ruta": {
+            "origen": "Armenia",
+            "destino": "Monter\u00eda"
+        },
+        "precio": 433836
+    },
+    {
+        "id": 80,
+        "ruta": {
+            "origen": "Ibagu\u00e9",
+            "destino": "C\u00facuta"
+        },
+        "precio": 204626
+    },
+    {
+        "id": 81,
+        "ruta": {
+            "origen": "Neiva",
+            "destino": "Villavicencio"
+        },
+        "precio": 307152
+    },
+    {
+        "id": 82,
+        "ruta": {
+            "origen": "San Andr\u00e9s",
+            "destino": "Pasto"
+        },
+        "precio": 139597
+    },
+    {
+        "id": 83,
+        "ruta": {
+            "origen": "Valledupar",
+            "destino": "Riohacha"
+        },
+        "precio": 352247
+    },
+    {
+        "id": 84,
+        "ruta": {
+            "origen": "Pasto",
+            "destino": "Florencia"
+        },
+        "precio": 150269
+    },
+    {
+        "id": 85,
+        "ruta": {
+            "origen": "Bogot\u00e1",
+            "destino": "C\u00facuta"
+        },
+        "precio": 340443
+    },
+    {
+        "id": 86,
+        "ruta": {
+            "origen": "C\u00facuta",
+            "destino": "Pasto"
+        },
+        "precio": 112918
+    },
+    {
+        "id": 87,
+        "ruta": {
+            "origen": "Monter\u00eda",
+            "destino": "Pasto"
+        },
+        "precio": 166079
+    },
+    {
+        "id": 88,
+        "ruta": {
+            "origen": "Armenia",
+            "destino": "Popay\u00e1n"
+        },
+        "precio": 385197
+    },
+    {
+        "id": 89,
+        "ruta": {
+            "origen": "Armenia",
+            "destino": "Neiva"
+        },
+        "precio": 387223
+    },
+    {
+        "id": 90,
+        "ruta": {
+            "origen": "San Andr\u00e9s",
+            "destino": "Pereira"
+        },
+        "precio": 349596
+    },
+    {
+        "id": 91,
+        "ruta": {
+            "origen": "Medell\u00edn",
+            "destino": "Riohacha"
+        },
+        "precio": 302205
+    },
+    {
+        "id": 92,
+        "ruta": {
+            "origen": "Santa Marta",
+            "destino": "Cartagena"
+        },
+        "precio": 292084
+    },
+    {
+        "id": 93,
+        "ruta": {
+            "origen": "Armenia",
+            "destino": "Medell\u00edn"
+        },
+        "precio": 122722
+    },
+    {
+        "id": 94,
+        "ruta": {
+            "origen": "Pereira",
+            "destino": "Tunja"
+        },
+        "precio": 274305
+    },
+    {
+        "id": 95,
+        "ruta": {
+            "origen": "Villavicencio",
+            "destino": "Cartagena"
+        },
+        "precio": 204039
+    },
+    {
+        "id": 96,
+        "ruta": {
+            "origen": "Medell\u00edn",
+            "destino": "Monter\u00eda"
+        },
+        "precio": 153056
+    },
+    {
+        "id": 97,
+        "ruta": {
+            "origen": "Armenia",
+            "destino": "Santa Marta"
+        },
+        "precio": 438551
+    },
+    {
+        "id": 98,
+        "ruta": {
+            "origen": "Manizales",
+            "destino": "Santa Marta"
+        },
+        "precio": 364033
+    },
+    {
+        "id": 99,
+        "ruta": {
+            "origen": "Villavicencio",
+            "destino": "Manizales"
+        },
+        "precio": 378237
+    },
+    {
+        "id": 100,
+        "ruta": {
+            "origen": "Bucaramanga",
+            "destino": "Quibd\u00f3"
+        },
+        "precio": 199715
+    }
+]

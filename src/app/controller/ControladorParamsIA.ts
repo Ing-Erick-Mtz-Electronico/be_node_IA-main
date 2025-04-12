@@ -1,37 +1,26 @@
 import { Request } from "express";
-import { ChatCompletionMessageParam } from "openai/resources/chat";
 import Peticion from "../entity/Peticion";
+import { ArregloIA } from "../entity/TipoParametro";
 
-let arregloIA: Record<string, ChatCompletionMessageParam[]> = {};
+let arregloIA: ArregloIA = {};
 
 class ControladorParamsIA {
-  public static obtenerParamsIA(req: Request): ChatCompletionMessageParam[] {
-    const { codUsuarioPeticion, idiomaPeticion, textoPeticion } = req.body as Peticion;
+  public static obtenerParamsIA(req: Request): string {
+    const { codUsuarioPeticion, textoPeticion } = req.body as Peticion;
 
-    const peticionUSuario = String(process.env.USER_REQUEST) + idiomaPeticion + ": " + textoPeticion;
+    const promptFinal =
+      String(process.env.RESTRICTION_SYSTEM_1) +
+      String(process.env.RESTRICTION_SYSTEM_2) +
+      String(process.env.RESTRICTION_SYSTEM_3) +
+      textoPeticion;
 
     if (!arregloIA[codUsuarioPeticion]) {
-      arregloIA[codUsuarioPeticion] = [
-        {
-          role: "system",
-          content: String(process.env.RESTRICTION_SYSTEM_1),
-        },
-        {
-          role: "system",
-          content: String(process.env.RESTRICTION_SYSTEM_2),
-        },
-        {
-          role: "system",
-          content: String(process.env.RESTRICTION_SYSTEM_3),
-        },
-      ];
+      arregloIA[codUsuarioPeticion] = { prompt: promptFinal };
     }
-    arregloIA[codUsuarioPeticion].push({
-      role: "user",
-      content: peticionUSuario,
-    });
 
-    return arregloIA[codUsuarioPeticion];
+    console.log("ARREGLO IA: ", arregloIA);
+
+    return arregloIA[codUsuarioPeticion].prompt;
   }
 }
 
