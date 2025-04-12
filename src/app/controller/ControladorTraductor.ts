@@ -4,9 +4,7 @@ import dotenv from "dotenv";
 
 import ServicioTraductor from "../service/ServicioTraductor";
 import Peticion from "../entity/Peticion";
-dotenv.config({
-  path: "variables.env",
-});
+dotenv.config();
 
 class ControladorTraductor extends ServicioTraductor {
   public llamarTraducirTexto(req: Request, res: Response): void {
