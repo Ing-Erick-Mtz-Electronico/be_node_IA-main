@@ -9,9 +9,9 @@ class ControladorParamsIA {
     const { codUsuarioPeticion, textoPeticion } = req.body as Peticion;
 
     const promptFinal =
-      String(process.env.RESTRICTION_SYSTEM_1) +
-      String(process.env.RESTRICTION_SYSTEM_2) +
-      String(process.env.RESTRICTION_SYSTEM_3) +
+      String(process.env.RESTRICTION_SYSTEM_IMAGE_1) +
+      String(process.env.RESTRICTION_SYSTEM_IMAGE_2) +
+      String(process.env.RESTRICTION_SYSTEM_IMAGE_3) +
       textoPeticion;
 
     if (!arregloIA[codUsuarioPeticion]) {
