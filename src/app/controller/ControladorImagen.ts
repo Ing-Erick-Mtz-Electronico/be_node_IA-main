@@ -4,13 +4,11 @@ import OpenAI from "openai";
 import ControladorParamsIA from "./ControladorParamsIA";
 
 import dotenv from "dotenv";
-dotenv.config({
-  path: "variables.env",
-});
+dotenv.config();
 
 class ControladorImagen extends ServicioImagen {
   public llamarGenerador(req: Request, res: Response): void {
-    const modeloIA = String(process.env.MODEL);
+    const modeloIA = String(process.env.MODEL_DALL_E_3);
     const keyOpenAI = String(process.env.API_KEY_OPENAI);
 
     const objOpenAI = new OpenAI({
